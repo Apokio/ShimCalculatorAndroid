@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:fillViewport="true">
+    
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<com.google.ads.AdView 
+	android:id="@+id/adView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    ads:adUnitId="a14e04068bd1197"
+    ads:adSize="BANNER"
+    ads:loadAdOnCreate="true" 
+    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="OEM Gear Shim Calculator"
+    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/diffType"
+    />
+<Spinner
+	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/diffSpinner"
+    android:prompt="@string/diffPrompt"
+	android:entries="@array/diff_array"
+	/>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/pinThick"
+    />
+<EditText 
+	android:layout_width="fill_parent" 
+	android:id="@+id/et_pinThick" 
+	android:layout_height="wrap_content"
+	android:inputType="numberDecimal"
+	/>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/extUsed"
+    />
+<Spinner 
+	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/extSpinner"
+    android:prompt="@string/extPrompt"
+	android:entries="@array/ext_array"
+	/>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/indRead"
+    />
+<EditText 
+	android:layout_width="fill_parent" 
+	android:id="@+id/et_indRead" 
+	android:layout_height="wrap_content"
+	android:inputType="numberDecimal"
+	/>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/shim"
+    />
+<EditText 
+	android:layout_width="fill_parent" 
+	android:id="@+id/et_shim" 
+	android:layout_height="wrap_content" 
+	android:inputType="numberDecimal"
+	android:editable="false"/>
+<Button
+	android:id="@+id/calculate"
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Calculate Shim"
+    />
+<Button
+	android:id="@+id/back"
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Back to Main Menu"
+    />
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shim Calculator</string>
+    <string name="diffType">Differential Type</string>
+    <string name="pinThick">Pinion Head Thickness</string>
+    <string name="extUsed">Extension Used</string>
+    <string name="indRead">Indicator Reading</string>
+    <string name="shim">Shim Thickness</string>
+    <string name="scrDepth">Scribed Depth</string>
+    <string name="block">Block Size</string>
+    <string name="chooseCalc">Choose Calculator</string>
+    <string name="diffPrompt">Choose Differential Type</string>
+    <string name="extPrompt">Choose the Extension Used</string>
+    <string name="blockPrompt">Choose the Height of the Block Used</string>
+    <string-array name="diff_array">
+    	<item>GM 10 Bolt 7.2(3.693 MHD)</item>
+    	<item>GM 10 Bolt 7.5(3.787 MHD)</item>
+    	<item>GM 10 Bolt 8.2 x 25 Spline Pinion (4.175 MHD)</item>
+    	<item>GM 10 Bolt 8.2 x 27 Spline Pinion (4.175 MHD)</item>
+    	<item>GM 10 Bolt 8.2 x Thin 55-64 Vette (4.125 MHD</item>
+    	<item>GM 10 Bolt 8.5 x 30 Spline (4.262 MHD)</item> 
+    	<item>GM 10 Bolt 8.5 27 Spline (4.262 MHD)</item> 
+    	<item>GM 12 Bolt 8.875 x 1.438 Pinion Dia. (4.556 MHD)</item> 
+    	<item>GM 12 Bolt 8.875 x 1.625 Pinion Dia. (4.670 MHD)</item> 
+    	<item>GM 12 Bolt 9.300 (4.620 MHD)</item> 
+    	<item>Chrysler 10 Bolt 8.250 (4.124 MHD)</item> 
+    	<item>Chrysler 12 Bolt 8.750 x 1.750 Pinion Stem (4.350 MHD)</item> 
+    	<item>Chrysler 12 Bolt 8.750 x 1.875 Pinion Stem (4.344 MHD)</item> 
+    	<item>Chrysler 12 Bolt 9.250 (4.625 MHD)</item> 
+    	<item>Ford 6.625 (3.500 MHD)</item> 
+    	<item>Ford 7.5 (4.040 MHD)</item> 
+    	<item>Ford 8.0 (4.000 MHD)</item> 
+    	<item>Ford 8.8 (4.415 MHD)</item> 
+    	<item>Ford 9.0 (4.375 MHD)</item> 
+    	<item>AMC 8 Bolt 8.875 (4.500 MHD</item> 
+    	<item>Dana Spicer 30 (3.625 MHD)</item> 
+    	<item>Dana Spicer 36 (3.931 MHD)</item> 
+    	<item>Dana Spicer 44 (4.312 MHD)</item> 
+    	<item>Dana Spicer 50 (4.616 MHD)</item> 
+    	<item>Dana Spicer 60 (5.000 MHD)</item> 
+    	<item>Dana Spicer 70 (5.375 MHD)</item> 
+    </string-array>
+    <string-array name="ext_array">
+    	<item>Short (1.900)</item>
+    	<item>Medium (2.500)</item>
+    	<item>Long (3.375)</item>
+    </string-array>
+	<string-array name="block_array">
+    	<item>1 inch</item>
+    	<item>2 inch</item>
+    	<item>3 inch</item>
+    </string-array>
+</resources>
+    
